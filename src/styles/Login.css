@@ -1,0 +1,76 @@
+
+.login-bg{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+   background-image: url("https://images.pexels.com/photos/54098/us-army-soldiers-army-men-54098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.log-box{
+    background-color: transparent;
+    width: 400px; height: 400px; margin: auto auto;
+    margin-top:8em; margin-bottom: 10em;
+    border-radius: 20px;
+}
+
+.log1{
+    padding-top: 1em; padding-bottom: 40px;
+}
+.login:active{
+    background-color: rgb(13, 119, 212);
+}
+.lr{
+    padding: 5px 20px; text-decoration: none; font-size: 1em; 
+    border: solid 1px white; margin: 10px; color: whitesmoke;
+    border-radius: 15px;
+}
+
+
+.log-form{
+    background-color: rgba(0, 0, 0, 0.067); width: 100%;
+    padding: 0px; color: aliceblue; position: relative;
+    margin: auto auto; margin-top: 10px;
+    border-radius: 10px;
+}
+
+.log-form:hover{
+    background-color: rgba(0, 0, 0, 0.067); width: 100%;
+    padding: 0px; color: aliceblue; position: relative;
+    margin: auto auto; margin-top: 10px;
+    border-radius: 10px;
+}
+
+.reg-form{
+    margin-top: 0px;
+}
+
+.reg-form Label{
+    padding: 10px;
+}
+.reg-form Label input{
+    padding: 0px; 
+}
+
+.log-sub{
+    position: absolute;
+    width: 200px; margin: auto auto; margin-top: 2em;
+    padding: 2px; font-size: 1em; font-family: cursive;
+    border-radius: 10px; margin-top: 3.5em; 
+    top: 6em; left: 6em;
+}
+
+.reg-sub{
+    margin-top: 45px;
+}
+
+.log-sub:hover{
+    cursor: pointer;
+}
+
+@media (max-width:400px) {
+    .log-box{
+        width: 90%;
+    }
+}

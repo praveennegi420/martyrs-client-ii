@@ -1,0 +1,156 @@
+.profile{
+    border: solid 2px hsl(0, 0%, 0%);
+    margin: 20px; width: 70%; margin:  auto auto; 
+    margin-top: 10em; margin-bottom: 10em; position: relative;
+}
+
+.profile-img{
+    height: 200px; width: 200px;
+    border-radius: 100px; border: solid 1px rgb(225, 183, 225); 
+    margin-left: 8em;
+}
+
+.be-volunteer{
+    height: 70px;  position: absolute;
+    right: 60px; top: 69px;
+    border-radius: 100px;
+}
+.be-volunteer:hover{
+    cursor: pointer;
+}
+
+.profile-box{
+    display: flex; flex-wrap: wrap; 
+    gap: 5em;
+    /* max-width: 600px; */
+    /* justify-content: center; */
+    align-items: center; 
+    margin: 40px;
+}
+
+.profile-details{
+    display: flex; 
+    align-items: center;  
+}
+
+.profile-details h3{
+    margin: 6px; padding: 4px;
+}
+
+.profile-details h4{
+    margin: 6px; padding: 4px;
+}
+
+.edit-profile{
+    padding: 2px  8px; font-family: cursive; 
+    position: absolute;  
+    top: 340px; left: 227px;
+}
+
+.post-msg{
+    margin: 40px;
+}
+.all-posts{
+    width: 90%; margin: auto auto; margin-top: 50px;
+    display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;
+}
+
+.break{
+    width: 80%; margin: auto auto; 
+    border: 1px solid gray;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.profile-posts{
+    margin-bottom: 50px;
+}
+.stray-box{
+    position: relative;
+}
+.delete{
+    height: 25px; position: absolute; 
+    right: 10px; top: 5px;
+}
+.dwnone{
+    margin-bottom: 50px;
+}
+.log-out{
+    margin-bottom: 50px; padding: 3px 35px;
+    font-family: cursive;  border-radius: 15px;
+}
+.log-out:hover{ cursor: pointer; }
+.edit-profile:hover{ cursor: pointer; }
+
+.edit-profile-data{
+    margin: auto auto;
+}
+.delete:hover{
+    cursor: pointer;
+}
+
+.profile-submit{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media (max-width:800px) {
+    .edit-profile{
+        left: 35%;
+        top: 300px; 
+    }
+    .be-volunteer{
+        right: 5px;
+        top: 5px;
+    }
+    .profile-img{
+        margin: auto;
+    }
+    .profile-box{
+        justify-content: center; gap: 8em;
+    }
+}
+
+@media (max-width: 400px) {
+    .profile-box{
+        margin: 10px; margin-top: 60px;
+    }
+    .profile-posts{
+        margin-bottom: 30px;
+    }
+    .edit-profile{
+        top: 320px;
+    }
+    .break{
+        margin-top: 30px; 
+        margin-bottom: 30px;
+    }
+    .be-volunteer{
+        right: 5px;
+        top: 5px;
+    }
+}
+
+@media (max-width:420px) {
+    .profile{
+        width: 86%;
+    }
+    .gender input{
+        margin-left: 14px;
+    }
+    .edit-profile-data{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .profile-submit{
+        width: 90%; margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .profile-details h3{ font-size: 15px;}
+    .profile-details h4{
+        font-size: 13px;
+    }
+}
