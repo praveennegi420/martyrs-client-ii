@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom'
 export default function Post(){
     const navigate= useNavigate()
     const location= useLocation()
-    console.log(location.state.data)
 
     function verifyPost(id){
         axios.post('http://localhost:8000/verifypost',{id})
@@ -35,7 +34,7 @@ export default function Post(){
             </div>
           </div>
           <div>
-      { location.state.user.user==='iamadmin' && !location.state.data.verified ? (
+      {  location.state.user.user==='iamadmin' && !location.state.data.verified ? (
         <Verify/>
       ) : (
         <></>
